@@ -28,6 +28,7 @@ public class TestController {
     public String hello(){
         System.out.println("idea新增了一个方法");
         System.out.println(" update ");
+        System.out.println("hehe");
         return "success";
     }
     
