@@ -16,4 +16,10 @@ public class TestController {
         System.out.println("hello");
         return "success";
     }
+    
+    @RequestMapping("/hello2")
+    public String test2(){
+        System.out.println("eclipse新增代码");
+        return "success";
+    }
 }
