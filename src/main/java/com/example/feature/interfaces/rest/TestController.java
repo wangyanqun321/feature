@@ -17,6 +17,12 @@ public class TestController {
         return "success";
     }
 
+    @RequestMapping("/hello2")
+    public String test2(){
+        System.out.println("eclipse新增代码");
+        return "success";
+    }
+
     @RequestMapping("/hello3")
     public String hello(){
         System.out.println("idea新增了一个方法");
