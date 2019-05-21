@@ -13,8 +13,10 @@ public class TestController {
 
     @RequestMapping("/hello")
     public String test(){
-        System.out.println("hello");
-        return "success";
+        System.out.println("asdflas;fjasfdj");
+        System.out.println("dfasf");
+        System.out.println("asdflas;fjasfdj");
+        return "sadfaaaa";
     }
 
     @RequestMapping("/hello2")
@@ -26,7 +28,7 @@ public class TestController {
     @RequestMapping("/hello3")
     public String hello(){
         System.out.println("idea新增了一个方法");
-        System.out.println(" update ");
+        System.out.println(" aaaa ");
         System.out.println("hehe");
         return "success";
     }
