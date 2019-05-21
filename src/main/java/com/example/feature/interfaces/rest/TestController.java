@@ -13,23 +13,24 @@ public class TestController {
 
     @RequestMapping("/hello")
     public String test(){
-        System.out.println("asdflas;fjasfdj");
-        System.out.println("dfasf");
-        System.out.println("asdflas;fjasfdj");
-        return "sadfaaaa";
+        System.out.println("hello");
+        return "success";
     }
 
     @RequestMapping("/hello2")
     public String test2(){
-        System.out.println("eclipse");
+        System.out.println("新增代码");
+		System.out.println("eclipse");
+        System.out.println("eclipse又新增了一行代码");
         return "success";
     }
 
     @RequestMapping("/hello3")
     public String hello(){
         System.out.println("idea新增了一个方法");
-        System.out.println(" aaaa ");
+        System.out.println(" update ");
         System.out.println("hehe");
         return "success";
     }
+    
 }
