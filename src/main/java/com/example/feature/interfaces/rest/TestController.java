@@ -16,4 +16,11 @@ public class TestController {
         System.out.println("hello");
         return "success";
     }
+
+    @RequestMapping("/hello3")
+    public String hello(){
+        System.out.println("idea新增了一个方法");
+        return "success";
+    }
+
 }
