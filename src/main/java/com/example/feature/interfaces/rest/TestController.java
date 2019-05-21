@@ -20,6 +20,7 @@ public class TestController {
     @RequestMapping("/hello2")
     public String test2(){
         System.out.println("eclipse新增代码");
+        System.out.println("eclipse又新增了一行代码");
         return "success";
     }
 
@@ -28,5 +29,5 @@ public class TestController {
         System.out.println("idea新增了一个方法");
         return "success";
     }
-
+    
 }
