@@ -31,6 +31,7 @@ public class TestController {
         System.out.println("idea新增了一个方法");
         System.out.println(" update ");
         System.out.println("hehe");
+		System.out.println("Creating a new branch is quick AND simple.");
         return "success";
     }
     
