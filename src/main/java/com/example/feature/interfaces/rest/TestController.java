@@ -28,11 +28,8 @@ public class TestController {
 
     @RequestMapping("/hello3")
     public String hello(){
-        System.out.println("idea新增了一个方法");
-        System.out.println(" update ");
-        System.out.println("哈哈哈");
-        System.out.println("hehe");
-		System.out.println("Creating a new branch is quick AND simple.");
+        
+		System.out.println("Creating a new branch is quick.");
         return "success";
     }
     
