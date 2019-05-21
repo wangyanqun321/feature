@@ -20,6 +20,7 @@ public class TestController {
     @RequestMapping("/hello2")
     public String test2(){
         System.out.println("新增代码");
+		System.out.println("fdsafa");
 		System.out.println("eclipse");
         System.out.println("eclipse又新增了一行代码");
         return "success";
